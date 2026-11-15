@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeremyseytre.github.io/photographie/sitemap.xml

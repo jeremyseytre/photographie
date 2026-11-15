@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact · Jérémy Seytre</title>
+<meta name="description" content="Contactez Jérémy Seytre pour parler de votre mariage, de votre date et de vos envies de photographies.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Figtree:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<noscript><style>.bt,#fl,#cc{display:none!important}@media(max-width:820px){header{position:static;flex-wrap:wrap}nav{position:static;transform:none;z-index:auto;flex-direction:row;flex-wrap:wrap;padding:0}main{padding-top:0}}</style></noscript>
+</head>
+<body>
+<header id="hd"><a class="logo" href="index.html" aria-label="Accueil"><img src="logo.png" alt="Jérémy Seytre Photographe"></a>
+<button class="bt" id="bt" aria-label="Menu" aria-controls="nv" aria-expanded="false">Menu</button>
+<nav id="nv"><a href="index.html" data-r="accueil">Accueil</a><a href="mariage.html" data-r="mariage">Mariage</a><a href="blog.html" data-r="blog">Blog</a><a href="contact.html" data-r="contact" class="on" aria-current="page">Contact</a></nav></header>
+<main id="app"><section class="w g2" style="align-items:start"><div class="rv"><h1 style="font-size:clamp(2.8rem,7vw,5.5rem)">Contact</h1><p>Une date, un lieu, une idée ? Écrivez-moi.</p><p class="sm">Basé dans la Loire (42), principalement autour de Saint-Étienne. Je me déplace dans toute la région Rhône-Alpes.</p><p>06 89 56 18 72<br><a href="mailto:artetlumierephotographie@gmail.com">artetlumierephotographie@gmail.com</a><br><a href="https://instagram.com/jeremyseytrephotographe" rel="noopener">Instagram</a></p><figure class="ph rv " style="aspect-ratio:4/5;--h:200"><span>photo · contact</span></figure></div>
+<form id="fm" class="rv cd" action="https://formspree.io/f/xdegezee" method="POST"><p class="sm" style="margin:0">Tous les champs sont obligatoires.</p><label>Vos prénoms<input name="noms" required autocomplete="name"></label><label>E-mail<input type="email" name="email" required autocomplete="email"></label><label>Téléphone<input type="tel" name="tel" autocomplete="tel" required></label><label>Date du mariage<input type="date" name="date" required></label><label>Lieu<input name="lieu" required></label><label>Formule envisagée<select name="formule"><option>Je ne sais pas encore</option><option>Essentielle</option><option>Complète</option><option>Prestige</option><option>Séance Engagement / Day After</option></select></label><label>Votre message<textarea name="message" rows="5" required></textarea></label>
+<label class="cb"><input type="checkbox" name="rgpd" required><span>J’accepte que les informations saisies soient transmises à Jérémy Seytre – Art &amp; Lumière Photographie afin de traiter ma demande, conformément au RGPD et à la loi Informatique et Libertés. Elles sont conservées 3 ans maximum, jamais cédées, et je peux exercer mes droits d’accès, de rectification et de suppression par e-mail.</span></label>
+<input name="_honey" style="display:none" tabindex="-1" autocomplete="off"><button class="btn">Envoyer ma demande</button><div id="msg" role="status"></div></form></section></main>
+<footer><div class="w"><div><h3>Jérémy Seytre</h3><p>Photographe de mariage<br>Art &amp; Lumière Photographie<br>Loire (42) · Rhône-Alpes</p></div>
+<div><p>06 89 56 18 72<br><a href="mailto:artetlumierephotographie@gmail.com">artetlumierephotographie@gmail.com</a><br><a href="https://instagram.com/jeremyseytrephotographe" rel="noopener">Instagram @jeremyseytrephotographe</a></p></div>
+<div><p><a href="contact.html">Contact</a><br><a href="blog.html">Blog</a><br><a href="#" id="ckr">Gérer les cookies</a></p></div></div>
+<p class="sm w" style="margin-top:2rem">© 2026 jeremyseytre-photographie.fr · TVA non applicable, art. 293 B du CGI</p></footer>
+<button class="btn" id="fl" type="button">Voir les formules</button>
+<div id="cc" role="dialog" aria-label="Cookies"><p><b>Cookies.</b> Ce site n’utilise des cookies de mesure d’audience ou de contenus tiers qu’avec votre accord. Les cookies strictement nécessaires ne demandent aucun consentement.</p><button class="btn" data-c="1">Accepter</button><button class="btn l" data-c="0">Refuser</button></div>
+<script src="app.js" defer></script>
+</body>
+</html>
